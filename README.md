@@ -1,11 +1,11 @@
 **Loan Default Risk Analysis (Bank Personal Loan Modeling)**
 
 
-### **Overview**
+**Overview**
 
 This project analyzes customer financial behavior using a personal loan dataset from a banking institution. The aim is to identify the key traits that influence personal loan acceptance — including income level, spending patterns, and mortgage burden — to help financial institutions reduce loan default risk and better target credit-worthy customers.
 
-### **Dataset**
+**Dataset**
 
 * **Source:** Kaggle (Bank Personal Loan Modeling Dataset)
 * **Filename:** Bank\_Personal\_Loan\_Modelling.csv
@@ -14,7 +14,7 @@ This project analyzes customer financial behavior using a personal loan dataset 
 * **Scope:** Customer-level demographics, income, spending, and loan status (binary target)
 
 
-### **Analysis Summary**
+**Analysis Summary**
 
 **1. Class Imbalance Check**
 We found that nearly 90.4% of customers did **not** accept a personal loan. Only 9.6% did, which creates a strong class imbalance. This is critical when designing classification models later.
@@ -41,7 +41,7 @@ Created a new feature `income_by_loan` = Income / (Mortgage + 1), to help evalua
 
 
 
-### **Visualization Analysis**
+**Visualization Analysis**
 
 ![Income Distribution](charts/income_distribution_outliers.png)
 ![Age Distribution](charts/age_distribution_outliers.png)
@@ -53,7 +53,7 @@ Created a new feature `income_by_loan` = Income / (Mortgage + 1), to help evalua
 
 
 
-### **Key Business Insights**
+**Key Business Insights**
 
 **Income remains the strongest indicator** of loan acceptance — high-income customers are more likely to be approved or apply.
 **Education level and online usage** also show slight positive influence on loan status.
@@ -63,7 +63,7 @@ Created a new feature `income_by_loan` = Income / (Mortgage + 1), to help evalua
 **Outliers must be handled carefully** to avoid skewing model predictions.
 
 
-### **Business Recommendations**
+**Business Recommendations**
 
 1. **Prioritize Income-Based Segmentation**
    Target individuals with high and stable incomes, as they show a stronger tendency to accept loans.
@@ -81,7 +81,7 @@ Created a new feature `income_by_loan` = Income / (Mortgage + 1), to help evalua
    Ratios like `income_by_loan` help add more depth to financial evaluation and improve prediction reliability.
 
 
-### **Conclusion**
+**Conclusion**
 
 This analysis showed me the foundation for a customer's personal loan default prediction system. By focusing on meaningful attributes such as- income, financial behavior, and  other ratios and by cleaning outliers and the imbalances the dataset is now modeling ready. Banks can use these insights to design smarter and potential loan approval policies and improve the customer targeting.
 
