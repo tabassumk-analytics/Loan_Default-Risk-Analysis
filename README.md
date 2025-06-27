@@ -74,6 +74,11 @@ Created a new feature `income_by_loan` = Income / (Mortgage + 1), to help evalua
 
 This analysis showed me the foundation for a customer's personal loan default prediction system. By focusing on meaningful attributes such as- income, financial behavior, and  other ratios and by cleaning outliers and the imbalances the dataset is now modeling ready. Banks can use these insights to design smarter and potential loan approval policies and improve the customer targeting.
 
+*I wanted to understand what factors influence whether a person is likely to take a personal loan or not. This can help banks or financial institutions make smarter decisions while offering loans and reduce their risk.
+*I analyzed things like income, age, education, credit card spending, mortgage, etc., to see how they are related to loan acceptance. The goal was to figure out if there are clear patterns or warning signs that could predict loan decisions.
+*I discovered that people with higher income, higher education, and more credit card usage were more likely to take loans. Age and mortgage also played a role, but income was the strongest factor. I also cleaned the data, removed outliers, and made it ready for building a reliable machine learning model in the next step.
+
+
 
 **Created by:** Tabassum Arshad
 **Tools Used:** Python, Pandas, Seaborn, Matplotlib, Jupyter Notebook
