@@ -84,7 +84,7 @@ Created a new feature `income_by_loan` = Income / (Mortgage + 1), to help evalua
 
 This analysis showed me the foundation for a customer's personal loan default prediction system. By focusing on meaningful attributes such as- income, financial behavior, and  other ratios and by cleaning outliers and the imbalances the dataset is now modeling ready. Banks can use these insights to design smarter and potential loan approval policies and improve the customer targeting.
 
----
+
 
 **Created by:** Tabassum Arshad
 **Tools Used:** Python, Pandas, Seaborn, Matplotlib
