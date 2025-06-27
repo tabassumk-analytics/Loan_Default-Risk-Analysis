@@ -1,8 +1,5 @@
 **Loan Default Risk Analysis (Bank Personal Loan Modeling)**
-
-
 **Overview**
-
 This project analyzes customer financial behavior using a personal loan dataset from a banking institution. The aim is to identify the key traits that influence personal loan acceptance — including income level, spending patterns, and mortgage burden — to help financial institutions reduce loan default risk and better target credit-worthy customers.
 
 **Dataset**
@@ -31,8 +28,8 @@ Created a correlation heatmap to identify multicollinearity and predictive stren
 * `Income` is strongly correlated with `CCAvg` and `Mortgage`.
 * `Personal Loan` correlates moderately with `Income`, `CD Account`, and `Online` usage.
 
-**5. Feature Engineering: Income-to-Loan Ratio**
-Created a new feature `income_by_loan` = Income / (Mortgage + 1), to help evaluate financial stretch of applicants.
+**5. Additional matrix: Income-to-Loan Ratio**
+We created additional metrics like the income-to-loan ratio to add more depth to financial evaluation and make future predictions more reliable
 
 **Visualization Analysis**
 
