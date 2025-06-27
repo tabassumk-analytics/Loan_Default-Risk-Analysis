@@ -13,7 +13,7 @@ This project analyzes customer financial behavior using a personal loan dataset 
 **1. Class Imbalance Check**
 We found that nearly 90.4% of customers did **not** accept a personal loan. Only 9.6% did, which creates a strong class imbalance. This is critical when designing classification models later.
 **2. Data Cleaning**
-Removed rows with negative `Experience` values. These were clearly invalid. All features were validated for type, nulls, and consistency.
+Removed rows with negative `Experience values`. These were clearly invalid. All features were validated for type, nulls, and consistency.
 **3. Outlier Detection**
 We performed individual boxplots and descriptive analysis on key numerical variables:
 
@@ -25,8 +25,8 @@ We performed individual boxplots and descriptive analysis on key numerical varia
 **4. Correlation Matrix**
 Created a correlation heatmap to identify multicollinearity and predictive strength.
 
-* `Income` is strongly correlated with `CCAvg` and `Mortgage`.
-* `Personal Loan` correlates moderately with `Income`, `CD Account`, and `Online` usage.
+* Income is strongly correlated with CCAvg and Mortgage.
+* Personal Loan correlates moderately with Income, CD Account, and Online usage.
 
 **5. Additional matrix: Income-to-Loan Ratio**
 We created additional metrics like the income-to-loan ratio to add more depth to financial evaluation and make future predictions more reliable
@@ -43,12 +43,12 @@ We created additional metrics like the income-to-loan ratio to add more depth to
 
 **Key Business Insights**
 
-**Income remains the strongest indicator** of loan acceptance — high-income customers are more likely to be approved or apply.
-**Education level and online usage** also show slight positive influence on loan status.
-**Credit card usage (CCAvg)** correlates with income and may serve as a proxy for financial engagement.
-**Age distribution is balanced**, so age is not a discriminatory feature in loan approval.
-**Mortgage values vary widely**, but do not strongly affect loan outcomes without additional features.
-**Outliers must be handled carefully** to avoid skewing model predictions.
+Income remains the strongest indicator of loan acceptance — high-income customers are more likely to be approved or apply.
+Education level and online usage also show slight positive influence on loan status.
+Credit card usage (CCAvg) correlates with income and may serve as a proxy for financial engagement.
+Age distribution is balanced, so age is not a discriminatory feature in loan approval.
+Mortgage values vary widely, but do not strongly affect loan outcomes without additional features.
+Outliers must be handled carefully to avoid skewing model predictions.
 
 **Business Recommendations**
 
@@ -65,7 +65,7 @@ We created additional metrics like the income-to-loan ratio to add more depth to
    Due to extreme imbalance in the target variable, modeling should use techniques like SMOTE, undersampling, or class weights.
 
 5. **Include Engineered Features**
-   Ratios like `income_by_loan` help add more depth to financial evaluation and improve prediction reliability.
+   Ratios like income_by_loan help add more depth to financial evaluation and improve prediction reliability.
 
 **Conclusion**
 
