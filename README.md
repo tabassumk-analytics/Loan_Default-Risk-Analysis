@@ -39,18 +39,22 @@ Created a correlation heatmap to identify multicollinearity and predictive stren
 **5. Feature Engineering: Income-to-Loan Ratio**
 Created a new feature `income_by_loan` = Income / (Mortgage + 1), to help evaluate financial stretch of applicants.
 
----
+
 
 ### **Visualizations**
 
 * ![Income Distribution](charts/income_outliers_boxplot.png)
-* ![Age Distribution](charts/age_outliers_boxplot.png)
-* ![Mortgage Spread](charts/mortgage_outliers_boxplot.png)
-* ![Credit Card Spending](charts/cc_avgspend_outliers.png)
-* ![Correlation Matrix](charts/Correlation_Matrix.png)
-* ![Income by Loan Ratio](charts/income_by_loan.png)
 
----
+
+- ![Income Distribution](charts/income_distribution_outliers.png)
+- ![Age Distribution](charts/age_distribution_outliers.png)
+- ![Mortgage Spread](charts/mortgage_amount_distribution.png)
+- ![Credit Card Spending](charts/ccavg_by_loan_status.png)
+- ![Correlation Matrix](charts/correlation_matrix.png)
+- ![Income by Loan Ratio](charts/income_by_loan_status.png)
+
+
+
 
 ### **Key Business Insights**
 
