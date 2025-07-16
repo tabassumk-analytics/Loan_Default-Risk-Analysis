@@ -31,7 +31,7 @@ Created a correlation heatmap to identify multicollinearity and predictive stren
 **5. Additional matrix: Income-to-Loan Ratio**
 We created additional metrics like the income-to-loan ratio to add more depth to financial evaluation and make future predictions more reliable
 
-**Visualization Analysis**
+**Visual Analysis**
 
 ![Income Distribution](charts/income_distribution_outliers.png)
 ![Age Distribution](charts/age_distribution_outliers.png)
@@ -39,7 +39,6 @@ We created additional metrics like the income-to-loan ratio to add more depth to
 ![Credit Card Spending](charts/ccavg_by_loan_status.png)
 ![Correlation heatmap](charts/correlation_heatmap.png)
 ![Income by Loan Ratio](charts/income_by_loan_status.png)
-
 
 **Key Business Insights**
 
